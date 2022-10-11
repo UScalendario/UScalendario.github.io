@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="http://code.jquery.com/jquery-3.2.1.slim.min.js"
+  integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g=" crossorigin="anonymous">
+</script>
+<script type="text/javascript">
+	$( document ).ready(function() {
+		$('#menu_on').click(function(){ // Al hacer click...
+		   $('body').toggleClass('visible_menu'); // Añadimos o eliminamos la clase 'visible_menu' al body
+		 })
+	});
+</script>
+<link rel="stylesheet" href="../CSS/estilo.css" type="text/css"
+</head>
+<body>
+
+<div id="wrapper">
+	<header id="#header">
+		<a href="#" id="menu_on">
+			<span></span>
+			<span></span>
+			<span></span>
+		</a>
+		</header>
+	<nav>	
+		<ul>
+			<li><a href="#">Home</a></li>
+            <li><a href="#">Servicios</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contacto</a></li>
+		</ul>
+	</nav>
+	<section id="content">
+
+    </section>
+</div>
+
+<p>
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+    Labore veritatis officia incidunt facilis quam alias quaerat, nulla
+    , obcaecati aliquid reiciendis tempora voluptates. Iste maiores deserunt quo 
+    temporibus tempora facere quia.
+</p>
+
+</body>
+</html>
